@@ -1,0 +1,2 @@
+/* Write a function which removes from string all non-digit characters and parse the remaining to number. E.g: "hell5o wor6ld" -> 56 */
+const getNumberFromString = s => +s.split("").filter(x=>x.match(/[1234567890]/)).join("");
