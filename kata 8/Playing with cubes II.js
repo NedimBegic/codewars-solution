@@ -17,3 +17,4 @@ class Cube {
   setSide(n) {
     this.side = Math.abs(n);
   }
+}
