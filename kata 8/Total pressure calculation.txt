@@ -1,0 +1,2 @@
+/* calculate the total pressure */
+solution = (s, t, u, p, i, d) => ((u / s + p / t) * 0.082 * (d + 273.15)) / i;
